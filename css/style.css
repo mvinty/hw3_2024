@@ -107,7 +107,13 @@ footer{
 
 /* Step 1: Write selector/rule property to add an underline when
 links in the navigation are in the hover or focus state.*/
+nav li:hover {
+  text-decoration: underline;
+}
 
+nav li:focus {
+  text-decoration: underline;
+}
 
 
 /* Step 2a: Write selector/rule property to position the default position for the skip class element*/
