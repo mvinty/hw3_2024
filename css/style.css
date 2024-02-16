@@ -117,21 +117,34 @@ nav li:focus {
 
 
 /* Step 2a: Write selector/rule property to position the default position for the skip class element*/
-
+.skip {
+  position: absolute;
+  top: -40px;
+}
 
 /* Step 2b: Write selector/rule property to position the skip class element when it is in focus*/
-
+.skip:focus {
+  top: 20px
+}
 
 /* Step 3: Write selector/rule property to style all elements when in focus*/
-
+*:focus {
+  outline: 2px solid black;
+}
 
 
 /* Step 4: Write selector/rule property to style the container */
-
+.container {
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr;
+  grid-row-gap: 15px;
+}
 
 /* Step 5: Write selector/rule property to add the background image to the 
 first div in the grid  and place it in the grid. */
-
+.container:first-child {
+  column-span: all;
+}
 
 
 /* Steps 6 and 7: Write the selector/rule properties to add place the next elements in the next
