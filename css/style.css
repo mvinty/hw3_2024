@@ -145,7 +145,7 @@ nav li:focus {
 first div in the grid  and place it in the grid. */
 .container>:nth-child(1) {
   grid-column: 1 / span 3;
-  background-image: url("/images/header.jpg");
+  background-image: url("images/header.jpg");
 }
 
 
